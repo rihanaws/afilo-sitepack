@@ -1,0 +1,4 @@
+[mcp_servers.paddle-live]
+url = "https://mcp.paddle.com/mcp"
+bearer_token_env_var = "LIVE_API_KEY"
+

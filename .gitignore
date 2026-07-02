@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.next
+.playwright-cli
+node_modules
+target
+*.tsbuildinfo
+.DS_Store
+dist
+.serena/
+.playwright-cli/
+.claude/settings.local.json
+.claude/settings.json
+

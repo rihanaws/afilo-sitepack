@@ -1,0 +1,14 @@
+{
+  "name": "afilo-sitepack",
+  "private": true,
+  "packageManager": "bun@1.2.0",
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "bun run --cwd apps/web dev",
+    "lint": "bun run --cwd apps/web lint",
+    "typecheck": "bun run --cwd apps/web typecheck",
+    "build": "bun run --cwd apps/web build"
+  }
+}

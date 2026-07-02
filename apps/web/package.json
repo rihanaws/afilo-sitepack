@@ -1,0 +1,31 @@
+{
+  "name": "@afilo/pitchkit-web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.31.9",
+    "@paddle/paddle-js": "^1.4.1",
+    "@tailwindcss/postcss": "^4.1.11",
+    "next": "^16.2.10",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@eslint/eslintrc": "^3.3.1",
+    "@next/eslint-plugin-next": "^16.2.10",
+    "eslint": "^9.30.1",
+    "eslint-config-next": "^16.2.10",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
+  }
+}
